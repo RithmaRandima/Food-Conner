@@ -1,3 +1,6 @@
+import burger from "./Double-Cheeseburger.webp";
+import pizza from "./supreme-pizza.avif";
+
 export const data = [
   {
     id: 1,
@@ -117,21 +120,23 @@ export const categories = [
   {
     id: 1,
     name: "Fast Food",
-    image: "./Double-Cheeseburger.webp",
+    image: burger,
   },
   {
     id: 2,
     name: "Pizza",
-    image: "./Double-Cheeseburger.webp",
+    image: pizza,
   },
   {
     id: 3,
     name: "Wings",
-    image: "./Double-Cheeseburger.webp",
+    image:
+      "https://www.shutterstock.com/image-photo/fried-breaded-chicken-tender-strips-600nw-2202131731.jpg",
   },
   {
     id: 4,
     name: "Salad",
-    image: "./Double-Cheeseburger.webp",
+    image:
+      "https://www.modernhoney.com/wp-content/uploads/2023/05/Fruit-Salad-10.jpg",
   },
 ];
